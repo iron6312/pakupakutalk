@@ -20,9 +20,9 @@
       
 
  
-  <% @hotspring.each do |hotspring| %>
+  <% @hotsprings.each do |hotspring| %>
       <div class="set_thread">
-        <%= link_to " #{hotspring.thread}", talk_hotspring_path, method: :get %>
+        <%= link_to " #{hotspring.thread}", talk_hotsprings_path, method: :get %>
       </div>
  <% end %>
 

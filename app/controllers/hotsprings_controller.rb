@@ -2,7 +2,7 @@ class HotspringsController < ApplicationController
   def index
     @prefecture = Prefecture.find(params[:talk_id])
     @hotspring = Hotspring.new
-    @hotspring = Hotspring.all
+    @hotsprings = Hotspring.all
   end
 
   def create
@@ -15,8 +15,8 @@ class HotspringsController < ApplicationController
   end
 
   def show
+    @prefecture = Prefecture.find(params[:talk_id])
     hotspring = Hotspring.find(params[:id])
-    prefecture = Prefecture.find(params[:talk_id])
   end
 
   private
