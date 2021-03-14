@@ -28,3 +28,32 @@
 .main{
   margin:20px 30px;
 }
+
+.set_thread{
+  width: 40%;
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(108, 109, 109, 0.933);
+  margin-left: 50px;
+}
+
+
+.form-input {
+  background-color: white;
+  display: flex;
+  width: 20%;
+}
+
+.form-message {
+  height: 50px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
